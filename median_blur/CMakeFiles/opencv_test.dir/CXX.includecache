@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/afs/andrew.cmu.edu/usr1/cundaoy/private/645/project/averblur/src/main.cpp
+iostream
+-
+string
+-
+opencv2/opencv.hpp
+-
+

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/afs/andrew.cmu.edu/usr20/yinghanw/private/18645/18645-blurring/averaging_blur/src/kernel.h
+opencv2/opencv.hpp
+-
+
+/afs/andrew.cmu.edu/usr20/yinghanw/private/18645/18645-blurring/averaging_blur/src/main.cpp
+iostream
+-
+string
+-
+opencv2/opencv.hpp
+-
+kernel.h
+/afs/andrew.cmu.edu/usr20/yinghanw/private/18645/18645-blurring/averaging_blur/src/kernel.h
+

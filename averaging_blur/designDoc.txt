@@ -1,0 +1,6 @@
+Modifications:
+
+1. FMUL is required instead of using MUL for multiplicating by 1/9 to get the averaging value
+    throughput = 1, latency = 5
+
+TODO: make a int8 to double kernel
